@@ -1,6 +1,6 @@
-let rock = document.querySelector("#rock");
-let paper = document.querySelector("#paper");
-let scissors = document.querySelector("#scissors");
+// let rock = document.querySelector("#rock");
+// let paper = document.querySelector("#paper");
+// let scissors = document.querySelector("#scissors");
 let selectedChoice;
 let userScore = document.querySelector("#user-score");
 let compScore = document.querySelector("#comp-score");
