@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.choices {
+  background-image: url(rock-paper-scissors-icon-set-on-white-background-vector.jpg);
+  height: 200px;
+  width: 510px;
+  display: flex;
+  justify-content: space-between;
+}
+.circle {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 72%;
+  width: 28%;
+}
+.circle p {
+  visibility: hidden;
+}
+.circle:hover {
+  cursor: pointer;
+  background-color: white;
+  opacity: 10%;
+}
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  height: 100px;
+  margin-bottom: 100px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.count {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score p {
+  font-size: x-large;
+}
